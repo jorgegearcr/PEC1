@@ -1,0 +1,450 @@
+header {
+   width: 100%;
+   position: relative;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   background: red;
+   margin: auto;
+   max-width: 1024px;
+}
+body{
+   background-color: #fffff0;
+}
+header p{
+   font-weight: bold;
+}
+header img{
+   width: 400px;
+   position: relative;
+}
+header h3{
+   color: rgb(251, 255, 0);
+}
+h1{
+   font-size: 50px;
+   text-shadow: 3px 3px 5px gray;
+}
+main div h2{
+   color:#0fafff;
+}
+main div h3{
+   color:#ef3f3f;
+}
+
+nav {
+   list-style: none;
+   padding: 0;
+   background: blue;
+   width: 100%;
+   max-width: 1024px;
+   margin: auto;
+   font-weight: bold;
+}
+  
+nav ul li {
+   display: inline-block;
+   text-align: center;
+}
+  
+nav ul li a {
+   text-decoration: none;
+   color: red;
+   padding: 20px;
+   display: block;
+}
+  
+nav ul li:hover {
+   background: lightblue; 
+}
+
+#Principal img {
+   float: right;
+   max-width: 100%;
+}
+div{
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Pagina_Principal {
+   text-align: center;
+   text-shadow: 3px 3px 2px gray;
+   font-size: 40px;
+   color: red;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#PilotosConMasTitulos{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid red;
+    border-collapse: separate;
+    border-spacing: 3px;
+    background: rgba(224, 201, 201, 0.548);
+}
+#PilotosConMasTitulos th{
+   background:rgb(0, 119, 255);
+   color: yellow;
+}
+#PilotosConMasTitulos th, #PilotosConMasTitulos td {
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid darkblue;
+  border-collapse: collapse;
+  padding: 0.2em;
+  caption-side: bottom;
+}
+#PilotosConMasTitulos  td:hover {
+   background: lightblue;
+   cursor: crosshair;
+}
+#ConstructoresConMasTitulos{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid red;
+    border-collapse: separate;
+    border-spacing: 3px;
+    background: rgba(224, 201, 201, 0.548);
+}
+#ConstructoresConMasTitulos th{
+   background:rgb(0, 119, 255);
+   color: yellow;
+}
+#ConstructoresConMasTitulos th, #ConstructoresConMasTitulos td {
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid darkblue;
+  border-collapse: collapse;
+  padding: 0.2em;
+  caption-side: bottom;
+}
+#ConstructoresConMasTitulos  td:hover {
+   background: lightblue;
+   cursor: crosshair;
+}
+
+.Resumen{
+   text-decoration: none;
+   font-size: 18px;
+   color: rgb(39, 173, 160);
+   font-weight: bold;
+}
+.Resumen:visited{
+   color: purple;
+}
+.Resumen:hover{
+   color: orange;
+   cursor: pointer;
+}
+
+img{
+    vertical-align: middle;
+}
+
+main{
+    position: static;
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fffff0;
+}
+#PilotosConMasTitulos .piloto{
+   vertical-align: middle;
+   text-align: left;
+}
+#ConstructoresConMasTitulos .piloto{
+   vertical-align: middle;
+   text-align: left;
+}
+#Campeonato_de_Pilotos .piloto{
+   vertical-align: middle;
+   text-align: left;
+}
+#Campeonato_de_Constructores .piloto{
+   vertical-align: middle;
+   text-align: left;
+}
+
+ #Campeonato_de_Pilotos{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 4px solid rgb(212, 5, 212);
+    border-collapse: separate;
+    border-spacing: 3px;
+    background: rgba(224, 201, 201, 0.548);
+
+ }
+ #Campeonato_de_Pilotos th{
+     background:darkblue;
+     color: red;
+ }
+ #Campeonato_de_Pilotos th, #Campeonato_de_Pilotos td {
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 0.2em;
+    caption-side: bottom;
+ }
+
+#Pilotos{
+   text-align: center;
+   text-shadow: 3px 3px 2px gray;
+   font-size: 40px;
+   color: red;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Campeonato_de_Pilotos  td:hover {
+   background: lightblue;
+   cursor: crosshair;
+}
+
+.oro{
+    background: gold;
+}
+#PilotosConMasTitulos .oro:hover,#ConstructoresConMasTitulos .oro:hover{
+   background: gold;
+   color: white;
+}
+.plata{
+    background: silver;
+}
+#PilotosConMasTitulos .plata:hover, #ConstructoresConMasTitulos .plata:hover{
+   background: silver;
+   color: white;
+}
+.bronce{
+    background: #cd7f32;
+}
+#PilotosConMasTitulos .bronce:hover, #ConstructoresConMasTitulos .bronce:hover{
+   background: #cd7f32;
+   color: white;
+}
+
+#Campeonato_de_Pilotos .oro:hover,#Campeonato_de_Constructores .oro:hover{
+   background: gold;
+   color: white;
+}
+#Campeonato_de_Pilotos .plata:hover, #Campeonato_de_Constructores .plata:hover{
+   background: silver;
+   color: white;
+}
+
+#Campeonato_de_Pilotos .bronce:hover, #Campeonato_de_Constructores .bronce:hover{
+   background: #cd7f32;
+   color: white;
+}
+ 
+.Puntos{
+    font-weight: bold;
+}
+
+.dorsalMercedes{
+    background: #00D2BE;
+    color: black;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalMercedes:hover,#Campeonato_de_Constructores .dorsalMercedes:hover{
+    background: #00D2BE;
+    color: white; 
+ }
+ .dorsalRed_Bull{
+    background: #0600EF;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalRed_Bull:hover,#Campeonato_de_Constructores .dorsalRed_Bull:hover{
+   background: #0600EF;
+    color: red; 
+ }
+ .dorsalRacing_Point{
+    background: #F596C8;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalRacing_Point:hover,#Campeonato_de_Constructores .dorsalRacing_Point:hover{
+   background: #F596C8;
+    color: rgb(0, 81, 255); 
+ }
+ .dorsalFerrari{
+    background: #DC0000;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalFerrari:hover,#Campeonato_de_Constructores .dorsalFerrari:hover{
+   background: #DC0000;
+    color: black; 
+ }
+ .dorsalRenault{
+    background: #FFF500;
+    color: black;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalRenault:hover,#Campeonato_de_Constructores .dorsalRenault:hover{
+   background: #FFF500;
+    color: red; 
+ }
+ .dorsalMcLaren{
+    background: #FF8700;
+    color:black;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalMcLaren:hover,#Campeonato_de_Constructores .dorsalMcLaren:hover{
+   background: #FF8700;
+    color: rgb(0, 81, 255); 
+ }
+ .dorsalAlpha_Tauri{
+    background: #FFFFFF;
+    color: black;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalAlpha_Tauri:hover,#Campeonato_de_Constructores .dorsalAlpha_Tauri:hover{
+   background: #FFFFFF;
+    color: red; 
+ }
+ .dorsalAlfa_Romeo{
+    background: #960000;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalAlfa_Romeo:hover,#Campeonato_de_Constructores .dorsalAlfa_Romeo:hover{
+   background: #960000;
+    color: black; 
+ }
+ .dorsalHaas{
+    background: #787878;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalHaas:hover,#Campeonato_de_Constructores .dorsalHaas:hover{
+   background: #787878;
+    color: black; 
+ }
+ .dorsalWilliams{
+    background: #0082FA;
+    color: white;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #Campeonato_de_Pilotos .dorsalWilliams:hover,#Campeonato_de_Constructores .dorsalWilliams:hover{
+   background: #0082FA;
+    color: black; 
+ }
+
+ #Campeonato_de_Constructores{
+   width: 100%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 4px solid #00D2BE;
+   border-collapse: separate;
+   border-spacing: 3px;
+   background: rgba(224, 201, 201, 0.548);
+
+}
+#Campeonato_de_Constructores th{
+    background:darkblue;
+    color: red;
+}
+#Campeonato_de_Constructores th, #Campeonato_de_Constructores td {
+   text-align: center;
+   vertical-align: middle;
+   border: 2px solid red;
+   border-collapse: collapse;
+   padding: 0.2em;
+   caption-side: bottom;
+}
+#Constructores{
+   text-align: center;
+   text-shadow: 3px 3px 2px gray;
+   font-size: 40px;
+   color: red;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Campeonato_de_Constructores td:hover{
+   background: lightblue;
+   cursor: crosshair;
+}
+
+#Grandes_Premios{
+   text-align: center;
+   text-shadow: 3px 3px 2px gray;
+   font-size: 40px;
+   color: red;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Resultados_por_gran_premio{
+   width: 100%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 4px solid red;
+   border-collapse: separate;
+   border-spacing: 3px;
+   background: rgba(211, 211, 211, 0.507);
+
+}
+
+#Resultados_por_gran_premio thead th{
+   background: darkblue;
+    color: red;
+}
+
+#Resultados_por_gran_premio th, #Resultados_por_gran_premio td {
+   text-align: center;
+   vertical-align: middle;
+   border: 2px solid red;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+.Posiciones{
+   vertical-align: center;
+   width: 100%;
+}
+
+.Pole th{
+   background: #68ff2d;
+   color: darkblue;
+}
+.Pole td{
+   
+   background-color: #b6ecec;
+}
+.Posiciones td{
+   background-color: #b6ecec;
+}
+.Vuelta_Rapida th{
+   background: #ffafff;
+   color: darkblue;
+}
+.Vuelta_Rapida td{
+   background-color: #b6ecec;
+}
+#Resultados_por_gran_premio .Pole td:hover{
+   background: orange;
+   color: black;
+}
+#Resultados_por_gran_premio .Posiciones td:hover{
+   background: orange;
+   color: black;
+}
+#Resultados_por_gran_premio .Vuelta_Rapida td:hover{
+   background: orange;
+   color: black;
+}
+#Resultados_por_gran_premio  td:hover{
+   background: lightblue;
+   cursor: crosshair;
+}
+
+hr{
+   border-top: 4px dotted green;
+}
+
+

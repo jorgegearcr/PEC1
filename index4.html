@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Temporada 2020 de Fórmula 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="estilos.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="./img/F1.png"/>
+    </head>
+    <body>
+        <header>
+            <h1>Temporada 2020 de Fórmula 1</h1>
+            <img src="img/F1_70_Aniversario.png" alt="F1 70 ANIVERSARIO">
+            <h4>70 Aniversario de la Fórmula 1</h4>
+            <h3>Jorge García Crespo, 2º Ing. Informática</h3>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Página Principal</a></li>
+                    <li> <a href="index2.html">Resultados por Gran Premio</a></li>
+                    <li> <a href="index3.html">Campeonato de Pilotos</a></li>
+                    <li> <a href="index4.html">Campeonato de Constructores</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+
+        <h2 id="Constructores">Campeonato de Constructores</h2>
+        <table id="Campeonato_de_Constructores">
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Escudería</th>
+                    <th>Motor</th>
+                    <th>Pilotos</th>
+                    <th>Puntos</th>
+                    <th>Victorias</th>
+                    <th>Podios</th>
+                    <th>Poles</th>
+                    <th>Vueltas Rápidas</th>
+                </tr>
+            </thead>  
+            <tbody>  
+                <tr>
+                    <td class="oro">1º</td>
+                    <td class="dorsalMercedes">Mercedes <img src="img/Mercedes.png" alt="Logo Mercedes" width="23"></td>
+                    <td>Mercedes</td>
+                    <td class="piloto"><img src="img/Reino_unido.png" alt="Bandera del Reino Unido" width="23"> Lewis Hamilton<br><img src="img/Finlandia.png" alt="Bandera Finlandia" width="23"> Valtteri Bottas <br><img src="img/Reino_unido.png" alt="Bandera Reino Unido" width="23"> George Russell </td>
+                    <td class="Puntos">573</td>
+                    <td>13</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td class="plata">2º</td>                    
+                    <td class="dorsalRed_Bull">Red Bull <img src="img/Red_Bull.png" alt="Logo Red Bull" width="26"></td>
+                    <td>Honda</td>
+                    <td class="piloto"><img src="img/Paises_Bajos.png" alt="Bandera Países Bajos" width="23"> Max Verstappen <br><img src="img/Tailandia.png" alt="Bandera Tailandia" width="23"> Alexander Albon</td>
+                    <td class="Puntos">319</td>
+                    <td>2</td>
+                    <td>13</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td class="bronce">3º</td>
+                    <td class="dorsalMcLaren">McLaren <img src="img/McLaren.png" alt="Logo McLaren" width="25"></td>
+                    <td>Renault</td>
+                    <td class="piloto"><img src="img/Espanha.png" alt="Bandera España" width="23"> Carlos Sainz <br><img src="img/Reino_unido.png" alt="Bandera Reino Unido" width="23"> Lando Norris</td>
+                    <td class="Puntos">202</td>
+                    <td></td>
+                    <td>2</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4º</td>
+                    <td class="dorsalRacing_Point">Racing Point <img src="img/Racing_Point.png" alt="Logo Racing Point" width="18"></td>
+                    <td>Mercedes</td>
+                    <td class="piloto"><img src="img/Mexico.png" alt="Bandera México" width="23"> Sergio Pérez <br><img src="img/Canada.png" alt="Bandera Canada" width="23"> Lance Stroll <br><img src="img/Alemania.png" alt="Bandera Alemania" width="23"> Nico Hülkemberg</td>
+                    <td class="Puntos">195</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5º</td>                    
+                    <td class="dorsalRenault">Renault <img src="img/Renault.png" alt="Logo Renault" width="15"></td>
+                    <td>Renault</td>
+                    <td class="piloto"><img src="img/Australia.png" alt="Bandera Australia" width="23"> Daniel Ricciardo <br><img src="img/Francia.png" alt="Bandera Francia" width="23"> Esteban Ocon</td>
+                    <td class="Puntos">181</td>
+                    <td></td>
+                    <td>3</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>6º</td>                   
+                    <td class="dorsalFerrari">Ferrari <img src="img/Ferrari.png" alt="Logo Ferrari" width="18"></td>
+                    <td>Ferrari</td>
+                    <td class="piloto"><img src="img/Monaco.png" alt="Bandera Mónaco" width="23"> Charles Lecrerc <br> <img src="img/Alemania.png" alt="Bandera Alemania" width="23"> Sebastian Vettel</td>
+                    <td class="Puntos">131</td>
+                    <td></td>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7º</td>
+                    <td class="dorsalAlpha_Tauri">AlphaTauri <img src="img/Apha_Tauri.png" alt="Logo AlphaTauri" width="26"></td>
+                    <td>Honda</td>
+                    <td class="piloto"><img src="img/Francia.png" alt="Bandera Francia" width="23"> Pierre Gasly <br><img src="img/Rusia.png" alt="Bandera Rusia" width="23"> Daniil Kvyat</td>
+                    <td class="Puntos">107</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8º</td>
+                    <td class="dorsalAlfa_Romeo">Alfa Romeo <img src="img/Alfa_Romeo.png" alt="Logo Alfa Romeo" width="18"></td>
+                    <td>Ferrari</td>
+                    <td class="piloto"><img src="img/Finlandia.png" alt="Bandera Finlandia" width="23"> Kimi Räikkönen <br><img src="img/Italia.png" alt="Bandera Italia" width="23"> Antonio Giovinazzi</td>
+                    <td class="Puntos">8</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9º</td>
+                    <td class="dorsalHaas">Haas <img src="img/Haas.png" alt="Logo Haas" width="19"></td>
+                    <td>Ferrari</td>
+                    <td class="piloto"><img src="img/Francia.png" alt="Bandera Francia" width="23"> Romain Grosjean <br><img src="img/Dinamarca.png" alt="Bandera Dinamarca" width="23"> Kevin Magnussen <br><img src="img/Brasil.png" alt="Bandera Brasil" width="23"> Pietro Fittipaldi</td>
+                    <td class="Puntos">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10º</td>
+                    <td class="dorsalWilliams">Williams <img src="img/Williams.png" alt="Logo Williams" width="20"></td>
+                    <td>Mercedes</td>
+                    <td class="piloto"><img src="img/Canada.png" alt="Bandera Canada" width="23"> Nicholas Latifi <br><img src="img/Reino_unido.png" alt="Bandera Reino Unido" width="23"> George Russell <br><img src="img/Reino_unido.png" alt="Bandera Reino_unido" width="23"> Jack Aitken </td>
+                    <td class="Puntos">0</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br><br><br><br><br>  
+    </main>
+    <hr>
+    <small>
+      &copy;2020 by Jorge García 
+    </small>
+    </body>
+</html>
